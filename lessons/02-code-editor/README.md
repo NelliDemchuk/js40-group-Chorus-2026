@@ -62,7 +62,7 @@ document.getElementById("hello").textContent = "Привет, мир музык�
 
 ### Шаг 4. Браузер
 
-1. Открой `lessons/02-code-editor/starter/index.html` в браузере.
+1. Открой l``lessons/02-code-editor/starter/index.htm в браузере.
 2. На странице — текст приветствия.
 3. F12 (на Mac часто Cmd+Option+I) → Console — та же фраза.
 
