@@ -14,7 +14,9 @@ function playA4() {
   osc.stop(ctx.currentTime + 0.4);
 }
 
-// TODO: найди #playBtn и #status, по клику меняй текст и цвет
+const status = document.querySelector("#status"); 
+const playBtn = document.querySelector("#playBtn");
+const toneBtn = document.querySelector("#toneBtn");
 // TODO: найди #toneBtn, по клику вызови playA4()
 
 // Пример:
