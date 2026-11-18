@@ -17,9 +17,13 @@ function playA4() {
 const status = document.querySelector("#status"); 
 const playBtn = document.querySelector("#playBtn");
 const toneBtn = document.querySelector("#toneBtn");
-// TODO: найди #toneBtn, по клику вызови playA4()
+// 
+ playA4()
+ let isPlayng=false
 
-// Пример:
-// const playBtn = document.querySelector("#playBtn");
-// const toneBtn = document.querySelector("#toneBtn");
-// const status = document.querySelector("#status");
+
+ console.log(playBtn)
+ playBtn.addEventListener("clik" ()  => {
+  isPlayng = !isPlayng
+  if(isPlaying){
+  text.textCotent= "привет спасибо что нажал"
